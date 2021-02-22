@@ -26,7 +26,7 @@ endmacro()
 
 glut_exe(t1)
 glut_exe(t2)
-glut_exe(t3)
-target_link_libraries(GLut_t3 pthread)
+glut_exe(t5)
+target_link_libraries(GLut_t5 pthread)
 
 glfw_exe(t1)
